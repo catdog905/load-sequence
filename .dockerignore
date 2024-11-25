@@ -1,0 +1,39 @@
+# Byte-compiled / package files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and databases
+logs/
+*.log
+*.sqlite3
+
+# Secrets and credentials
+*.pem
+*.key
+.env
+.env.local
+config.yaml
+
+# Git and version control
+.git/
+.gitignore
+
+# Docker-specific
+Dockerfile
+.dockerignore
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Load testing reports
+reports/
